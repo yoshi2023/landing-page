@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+.head {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        list-style-type: none;
+        font-size: 24px;
+        
+}
+
+
+
+
+
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding: 100px;
+}
+
+.button {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.signup {
+    background-color: #3882f6;
+    font-size: 24px;
+    height: 300px;
+    width: 300px;
+    box-sizing:border-box;
+    
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    font-size: 36px;
+    padding: 30px;
+}
