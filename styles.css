@@ -6,11 +6,13 @@
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .logo{
-    margin-left: 100px;
+    margin-left: 155px;
 }
 
 .menu {
@@ -24,7 +26,8 @@
 
 
 
-.welcome {
+.header2 {
+    color: #F9FAF8;
     text-align: justify;
     background-color: #1f2937;
     padding: 7em 0;
@@ -34,18 +37,18 @@
     gap: 2em;
 }
 
-.welcome .left {
+.header2 .left {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.welcome .right {
+.header2 .right {
     flex-shrink: 0;
     width: 50%;
 }
 
-.hero {
+.subtitle2 {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
@@ -58,7 +61,7 @@ button {
     border-radius: 8px;
 }
 
-.welcome button {
+.header2 button {
     border: none;
 }
 
